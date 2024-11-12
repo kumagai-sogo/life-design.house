@@ -1,0 +1,632 @@
+body, h1, h2, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd,
+table, caption, th, td, figure, img, form {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: none;
+	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+textarea { font-size: 100%; }
+
+img { vertical-align: bottom; }
+
+hr { display: none; }
+
+html{
+	height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+	height: 100%;
+    font-family: arial,sans-serif;
+    background: #f8f5eb;
+	color: #000;
+	overflow-x: hidden;
+background: url(../images/bg.jpg) ;
+}
+
+a		{	text-decoration: none; color: #000;	}
+a:hover	{   text-decoration: none; color: #444;	}
+
+a img {  
+    -webkit-transition: 0.3s ease-in-out;  
+       -moz-transition: 0.3s ease-in-out;  
+         -o-transition: 0.3s ease-in-out;  
+            transition: 0.3s ease-in-out;  
+}  
+a img:hover {  
+    opacity: 0.6;  
+    filter: alpha(opacity=60);  
+}
+
+.center{
+	text-align: center;
+}
+.pc_hide {
+    display:none;
+}
+
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.calspace {margin-top: 30px!important;}
+.pricescon {width: 100%; margin: 0 auto; margin-bottom: 20px;}
+.pr_r {display:block; width: 100%;}
+.pr_l {display:block; width: 100%; vertical-align: top;}
+
+.baner {text-align: center}
+.baner img {text-align: center; max-width: 805px; width: 100%}
+
+.sp_view {
+    display:block;
+}
+.subtitles {font-weight: bold; font-size: 22px;}
+.inviewfadeInUp {
+    opacity: 0;
+    transform: translate(0, 60px);
+    -webkit-transform: translate(0, 60px);
+    transition: .8s;
+}
+.esphead {padding-top: 50px; text-align: center}
+.goldwaku {
+background: #b19a00;
+color: #fff;
+padding: 10px 17px 10px 17px;
+margin-bottom: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+text-align: center;
+letter-spacing: 4px;
+}
+.wakuafter {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.fotte1 {display: inline-block}
+.fotte2 {display: inline-block; text-indent: 30px;}
+/* text colors */
+
+.red {color: red;}
+.blue {color: blue;}
+.white {color: white;}
+.black {color: black;}
+.green {color: #b5901f;}
+.line {text-align: center}
+.pluspar {margin-top: 70px;}
+h1 {color: #fff; font-size: 14px; line-height: 28px; text-shadow: 0 0 10px #000;}
+.eng {font-size: 28px; font-weight: bold; color: #fff; font-size: 16px; text-shadow: 0 0 10px #000;}
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+}
+.parallax-window2 {
+    min-height: 300px;
+    background: transparent;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clear {clear: both}
+/* fadeInUp */ 
+
+.fadeInUp {
+    opacity: 1.0;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}
+
+
+/* ヘッダー */ 
+
+
+section {
+	padding:0px;
+}
+
+.menu_bar {
+	display:none;
+}
+
+header .phone {
+display: none;
+}
+
+header .fb {
+display: none;
+}
+
+header {
+	width: 100%;
+}
+header figure {
+	float: left;
+    width: 140px;
+    margin-right: 15px;
+}
+header nav {
+	background:#F2E7D9;
+	z-index:1000;
+	max-width: 1000px;
+	width: 100%;
+	margin:20px auto;
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+
+header nav ul li:hover .children {
+	display: block;
+}
+header .eigyou {
+display: none; 
+}
+/*Submenu*/
+header nav ul li .children {
+	background:#011826;
+	position: absolute;
+	display: none;
+	width: 150%;
+	z-index: 1000;
+}
+
+header nav ul li .children li {
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .children li a {
+	display: block;
+}
+
+header nav ul .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right: 0px;
+	margin-left:10px;
+}
+
+header nav ul li a {
+	color:#000;
+	text-decoration: none;
+	display: inline-block;
+	padding:8px;
+}
+
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top: 3px;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.menu_bar {
+		width: 32px;
+		display: block;
+		position: fixed;
+		top:26px;
+        right:20px;
+        z-index: 6;        
+}
+
+.menu_bar .bt-menu {
+		display: block;
+		padding: 13px;
+		color:#fff;
+		overflow: hidden;
+		font-size:25px;
+		font-weight:bold;
+		text-decoration: none;
+        text-align: center;        
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+	header nav {
+		height:100vh;
+		right:100%; 
+		margin: 0;
+		position:fixed;
+		overflow:scroll;
+        text-align: center;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(25,25,25,.5);
+	}
+
+	header nav ul li a {
+		display: block;
+        font-size: 1.2em;        
+	}
+	header nav ul li a:hover {
+        color:#ccc;
+	}
+	header nav ul li:hover .children{
+		display: none;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+		/*display: block;*/
+	}
+
+	header nav ul li .children li a{
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+	}
+.textbold {font-weight: bold}
+.headmobile {
+    padding: 10px 0 12px 0;
+    background: #d1cde6;
+    position:fixed;
+    text-align: center; 
+    width: 100%;
+    -webkit-box-shadow: 0px 7px 17px 2px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 7px 17px 2px rgba(0,0,0,0.23);
+box-shadow: 0px 7px 17px 2px rgba(0,0,0,0.23);
+    border-bottom:#d6ae68 4px solid;
+    z-index: 1000;
+}
+.navlogo{
+    text-align: center;
+    padding-left: 18px;
+    padding-top: 2px;
+   
+}
+.navclose {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.onsite {background: #fff;color: #e4004f;font-weight: bold; font-size: 1.2em; padding:8px;}
+.fbook {background: #3a579a;color: #fff;font-weight: bold;}
+
+/* トップイメージ */ 
+ section.mainimage{
+     width: 90%;
+     margin: 0 auto;
+}
+
+section.mainimage .top_catch01{
+    position: absolute;
+    top: 140px;
+    z-index: 100;
+}
+
+section.mainimage .top_catch01 img{
+	width: 100%;
+	height: auto;
+}
+section.explanatory{
+	border-bottom: 1px solid #eee;
+    margin: 0 auto;
+    max-width: 900px;
+    overflow: hidden;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.bg2 {background: #fff;}
+.f_left {float: left}
+.f_right {float: right}
+
+/* Responsive iFrame */
+ 
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.plustop {padding-top: 50px;}
+
+.serb {
+  display: block;
+  height: 100px; /*same height as header*/
+  /*margin-top: -115px; same height as header*/
+  visibility: hidden;
+}
+
+.s1 {
+  display: block;
+  height: 0px; /*same height as header*/
+  margin-top: 0px !important;
+  visibility: hidden;
+}
+
+.s2 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s3 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s4 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s5 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s6 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s7 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s8 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.s9 {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.about {
+  display: block;
+  /*height: 40px; /*same height as header*/
+  /*margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+.contact {
+  display: block;
+  /*height: 40px; /*same height as header*/
+  /*margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+#compinfo {background:url("../images/infobg.jpg") repeat-y;  width: 100%; height: 570px; }
+#compinfo .info {width: 90%; margin: 0 auto; color: white; margin-bottom: 30px }
+#compinfo .info .txt h2 {font-size: 2em; letter-spacing: 4px; margin-bottom: 30px; text-align: center}
+#compinfo .info .txt {font-size: 1em;  width: 100%; padding-top: 30px; line-height: 50px; }
+#compinfo .info .txt td {vertical-align: top;}
+#compinfo .info .txt .com {width: 115px;}
+.sectiongmap {width: 100%; }
+.google-maps {
+    position: relative;
+    height: 570px;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 570px; !important;
+}
+
+#services {padding-top: 70px; width:90%; margin: 0 auto}
+#services h2 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important;font-size: 2em; letter-spacing: 1px; font-weight: bold; text-align: center; line-height: 26px; padding-bottom: 15px;}
+#services h3 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important; font-size: 0.8em; font-weight: normal; letter-spacing: 4px; margin: 0 auto; padding-bottom: 10px; text-align: center}
+#services p {width: 100%; font-size: 15px; letter-spacing: 2px; line-height: 28px; padding: 40px 0 0 0;}
+#services .arrow {text-align: center; margin-top: 50px; margin-bottom: 20px; width:100%;}
+
+#about {padding-top: 15px; padding-bottom: 70px; width:90%; margin: 0 auto}
+#about h2 {font-size: 2em; letter-spacing: 1px; font-weight: bold; text-align: center; line-height: 26px; padding-bottom: 15px;}
+#about h3 {font-family: Verdana,Geneva,sans-serif; font-size: 0.8em; font-weight: normal; letter-spacing: 4px; margin: 0 auto; padding-bottom: 10px;text-align: center}
+#about p { font-size: 15px; letter-spacing: 2px; line-height: 28px; padding: 40px 0 0 0;}
+#about .arrow {text-align: center; margin-top: 50px; margin-bottom: 20px;}
+
+#contact {padding-top: 15px; padding-bottom: 70px; width:90%; margin: 0 auto}
+#contact h2 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important;font-size: 2em; letter-spacing: 1px; font-weight: bold; text-align: center; line-height: 26px; padding-bottom: 15px;}
+#contact h3 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important; font-size: 0.8em; font-weight: normal; letter-spacing: 4px; margin: 0 auto; padding-bottom: 10px; text-align: center}
+#contact p { font-size: 15px; letter-spacing: 2px; line-height: 28px; padding: 40px 0 0 0;}
+#contact .arrow {text-align: center; margin-top: 50px; margin-bottom: 20px;}
+
+#servbott {width: 100%; margin: 0 auto; text-align: center}
+#servbott img {margin-bottom: 30px; max-width: 350px; width: 100%; height: auto}
+#servbott .mar-right img {max-width: 350px; width: 100%; height: auto}
+
+#sec_service {padding-bottom: 70px; width: 90%; margin: 0 auto}
+#sec_service h2 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important;font-size: 2em; letter-spacing: 1px; font-weight: bold; text-align: center; line-height: 26px; padding-bottom: 15px;}
+#sec_service h3 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important; font-size: 0.8em; font-weight: normal; letter-spacing: 4px; margin: 0 auto; padding-bottom: 10px; text-align: center}
+#sec_service p { font-size: 15px; letter-spacing: 2px; line-height: 28px; padding: 20px 0 0 0; }
+#sec_service .arrow {text-align: center; margin-top: 50px; margin-bottom: 20px;}
+/* Responsive GoogleMap */
+.google-maps {
+    position: relative;
+    padding-bottom: 0%;
+    height: 400px;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 400px !important;
+}
+
+
+/*MIZ-CURE STYLES */
+#sec_mizcure {
+    padding-bottom: 70px;
+    margin: 0 auto;
+}
+#sec_mizcure h2 { padding-top: 50px; font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important;font-size: 2em; letter-spacing: 1px; font-weight: bold; text-align: center; line-height: 26px; padding-bottom: 15px;}
+#sec_mizcure h3 {font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important; font-size: 0.8em; font-weight: normal; letter-spacing: 4px; margin: 0 auto; padding-bottom: 10px; text-align: center}
+.h2romaji {font-size: 18px;}
+.line {
+    text-align: center;
+}
+.content {
+    padding: 100px 0 60px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.secwhite {
+    background: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: black;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 30px;
+}
+.cont {
+    width: 93%;
+    margin: 0 auto;
+    color: #000;
+}
+.photo1 {float: none width: 100%;}
+.photodesc {float: none; max-width: 100%; width: 100%; margin-top: 40px;}
+.photodesc h4 {color: #baa21c; font-size: 18px; font-weight: bold; line-height: 26px; margin-bottom:40px;}
+.photo1 img {margin-bottom: 20px;max-width: 513px; width: 100%}
+
+.pad80 {padding-top: 40px;}
+.cont p {
+    margin-bottom: 5px !important;
+}
+.cont-txt {    
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.circle {background: #baa21c; color:white;
+-webkit-border-radius: 70px;
+-moz-border-radius: 70px;
+border-radius: 70px; 
+padding: 2px 10px 2px 10px;
+margin-right: 10px;
+}
+
+.tabledesc {width: 100%; margin: 0 auto}
+
+.tabledesc .tabhead {background:#caa744; color: white; font-size: 28px; font-weight: bold; text-align: center;}
+.txt { border:#fff 2px solid; width: 50%; color: black;font-size: 22px; }
+.bgcolor1 {background: #e5d9b4; border:#fff 1px solid;}
+.bgcolor2 {background: #f1ebd8; border:#fff 1px solid;}
+.pad {padding: 15px;border:#fff 2px solid;}
+.txt-r {text-align: right}
+
+.miz {max-width: 793px; width: 100%; margin: 0 auto; text-align: center}
+.miz img {max-width: 793px; width: 100%;}
+.pink {margin-top: 0px; color:#e9328c; font-size: 44px; font-weight: bold; padding-bottom: 20px;}
+.smallp {font-size: 22px !important;}
+.komi {margin-top: -40px;  font-size: 24px; color: black; padding-bottom: 10px; }
+.explain {width: 93%; margin: 0 auto; padding-top: 30px;}
+.kom {background: #000; color: white; padding: 3px; font-weight: bold;}
+.seckom {margin-top: 10px; margin-bottom: 35px;  color: black}
+.red {color: red; }
+.bold {font-weight: bold;}
+.yellbg {background:#fdec21;
+    text-align: center; 
+    font-size: 34px; 
+    font-weight: bold; 
+    margin-bottom: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.tityell {margin: 10px 0 10px 0;width: 90%;margin: 0 auto; padding-bottom: 10px}
+.whitebg {background: #fff; 
+    padding: 20px; 
+    width: 80%; 
+    margin: 0 auto; 
+    font-size: 18px; 
+    text-align: left; 
+    font-weight: normal; 
+    line-height: 32px; 
+    margin-bottom: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.extra {margin: -40px 0 30px 0}
+.botred {text-align: center}
+.botred img {max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 20px; text-align: center}
+.cards {text-align: center}
+.cards img {max-width: 378px; width: 100%; margin: 0 auto; text-align: center}
+
+/*MIZ-CURE STYLES END */
+
+
+/* footer */ 
+footer {
+    background: #fff;
+    padding: 35px 0 30px 0;
+    width: 100%;
+    text-align: center;
+}
