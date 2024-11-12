@@ -1,0 +1,3 @@
+@charset "UTF-8";
+@import url("template_style.css") only screen and (min-width:1000px);
+@import url("template_style_tablte.css") only screen and (max-width:999px);

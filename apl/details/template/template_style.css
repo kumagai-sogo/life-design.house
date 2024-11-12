@@ -1,0 +1,201 @@
+/*管理画面用スタイルシート*/
+
+body{
+margin:10px 0px;
+text-align: center;
+background-color:#E5E5DC;
+}
+.s_tb {
+	width:157px;
+	text-align:center;
+	vertical-align:top;
+}
+
+.header_line_bg{
+background-color:#E2E2DE;
+}
+
+.header_line{
+width:860px;
+height:5px;
+background-color:#E2E2DE;
+border-top:1px solid #CCCCCC;
+border-bottom:1px solid #CCCCCC;
+}
+
+.header_top{
+width:910px;
+height:20px;
+background-image: url(images/bg_header_top.gif);
+background-repeat: norepeat;
+margin-left:auto;
+margin-right:auto;
+}
+
+.footer_bottom{
+width:910px;
+height:20px;
+background-image:url(images/bg_footer_bottom.gif);
+background-repeat: norepeat;
+margin-left:auto;
+margin-right:auto;
+}
+
+.main{
+width:910px;
+background-image:url(images/bg_main.gif);
+background-repeat:repeat-y;
+margin-left:auto;
+margin-right:auto;
+text-align:left;
+padding-top:1px;
+}
+
+.margin_main{
+margin-left:25px;margin-right:25px;
+}
+
+.footer{
+font-family:Verdana;
+color: #696969;
+font-size: 10px;
+text-align: center;
+width:860px;
+padding-top:8px;
+padding-bottom:25px;
+border-top: 1px solid #CCCCCC;
+}
+
+.footer a:link{
+color: #696969;
+text-decoration: none;
+}
+
+.footer a:visited{
+color: #696969;
+text-decoration: none;
+}
+
+.footer a:hover{
+color: #0036A6;
+text-decoration: none;
+}
+
+.footer a:activ{
+color: #696969;
+text-decoration: none;
+}
+
+
+.tb_main{
+width:860px;
+}
+h2 {
+border-left-width:				12px;
+border-left-style:				solid;
+border-left-color:				#aaaaaa;
+color:							#555555;
+font-size:						16px;
+display:						block;
+padding-left:					5px;
+padding-top:					0px;
+padding-right:					0px;
+padding-bottom:					0px;
+margin-top:						0px;
+margin-right:					0px;
+margin-bottom:					6px;
+margin-left:					0px;
+}
+.tb_menu{
+padding-top:20px;
+vertical-align:top;
+width:185px;
+}
+
+.tb_content{
+padding-top:20px;
+vertical-align:top;
+padding-left:25px;
+padding-bottom:55px;
+width:675px;
+}
+.submit_button{
+width: 155px; 
+height: 40px; 
+margin: 2px;
+font-size: 20px;
+background-color: #dddddd;
+}
+.bg-grad { 
+padding-left:					20px;
+padding-top:					10px;
+padding-bottom:					10px;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.42, #EFEFEF),
+	color-stop(1, #C7C7C7)
+);
+background-image: -o-linear-gradient(bottom, #EFEFEF 42%, #C7C7C7 100%);
+background-image: -moz-linear-gradient(bottom, #EFEFEF 42%, #C7C7C7 100%);
+background-image: -webkit-linear-gradient(bottom, #EFEFEF 42%, #C7C7C7 100%);
+background-image: -ms-linear-gradient(bottom, #EFEFEF 42%, #C7C7C7 100%);
+background-image: linear-gradient(to bottom, #EFEFEF 42%, #C7C7C7 100%);
+}
+
+/*入力項目名*/
+.tabletitle{
+width:120px;
+padding-left:10px;
+margin-bottom:30px;
+margin-right:20px;
+font-size: 14px;
+line-height: 130%;
+color: #555555;
+}
+
+
+/*入力部分・確認画面の入力内容*/
+.tableform{
+width:860px;
+vertical-align:top;
+padding-left:5px;
+padding-top:5px;
+padding-bottom:5px;
+font-size: 14px;
+line-height: 130%;
+color: #555555;
+}
+.tableform iframe {
+	width: 400px; height: 226px;
+}
+
+
+/*フォーム全体の幅*/
+.maintable{
+width:860px;
+text-align:left;
+font-size:15px;
+color: #555555;
+}
+
+form{margin:0;}
+
+/*各入力部分についてのコメント（文字制限等）*/
+.formsubcomment{
+font-size:12px;
+}
+
+
+/*フォームボタン*/
+.submit{
+padding:2px 15px;
+}
+
+
+.topimg iframe {max-width: 250px; height: auto;}
+
+/*.ui-datepicker-year {
+  display: none;
+}*/
